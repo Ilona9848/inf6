@@ -13,10 +13,8 @@ namespace inf6
         {
             int[] a = { 5, 4, 8, 2 };
             Stack<int> st = new Stack<int>();
-
             foreach (var el in a)
                 st.Push(el);
-
             for (; st.Count() > 0;)
                 Console.Write(st.Pop());
         }
